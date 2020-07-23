@@ -72,25 +72,6 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Light and dark themes"),
-//        actions: <Widget>[
-//          themeProvider.darkTheme
-//              ? IconButton(
-//                  icon: Icon(Icons.wb_sunny),
-//                  onPressed: () {
-//                    setState(() {
-//                      themeProvider.darkTheme = true;
-//                    });
-//                  },
-//                )
-//              : IconButton(
-//                  icon: Icon(Icons.brightness_2),
-//                  onPressed: () {
-//                    setState(() {
-//                      themeProvider.darkTheme = false;
-//                    });
-//                  },
-//                ),
-//        ],
       ),
       body: Center(
         child: Column(
